@@ -35,8 +35,19 @@ h1,h2 {
 .nav-pills>li[data-slide-to="2"].active a { background-color: #2980b9; }
 .nav-pills>li[data-slide-to="3"].active a { background-color: #8e44ad; }
 </style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script type="text/javascript"
+	src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.28/angular.min.js"></script>
+<script type="text/javascript"
+	src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.28//angular-route.min.js"></script>
+<script type="text/javascript" src="app/app.js"></script>
+<script type="text/javascript" src="app/services/customerServices.js"></script>
+<script type="text/javascript" src="app/controller/customerController.js"></script>
+<script type="text/javascript" src="app/controller/tabController.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" /> 
+
 <script type="text/javascript">
-$(document).ready( function() {
+$(document).ready( function() {	
     $('#myCarousel').carousel({
     	interval:   4000
 	});
@@ -61,16 +72,7 @@ $(document).ready( function() {
 });
 </script>
 
-<script type="text/javascript"
-	src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.28/angular.min.js"></script>
-<script type="text/javascript"
-	src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.28//angular-route.min.js"></script>
-<script type="text/javascript" src="app/app.js"></script>
-<script type="text/javascript" src="app/services/customerServices.js"></script>
-<script type="text/javascript" src="app/controller/customerController.js"></script>
-<script type="text/javascript" src="app/controller/tabController.js"></script>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" /> 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
 <title>Insert title here</title>
 </head>
 <body ng-app="mainApp">

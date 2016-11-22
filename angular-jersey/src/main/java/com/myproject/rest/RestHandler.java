@@ -6,9 +6,7 @@ import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 
-import com.google.inject.Guice;
 import com.myproject.bo.Customer;
-import com.myproject.guice.MyGuiceImpl;
 import com.myproject.interceptor.LogInterCeptor;
 
 import io.swagger.annotations.Api;
